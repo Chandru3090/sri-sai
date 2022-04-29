@@ -1,0 +1,46 @@
+/* Created By Chandru */
+.top-header-agile {
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    background: #000;
+    z-index: 999;
+}
+
+.navbar-brand {
+    height: 100%;
+}
+
+.navbar-brand a {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-brand a img {
+    width: 70px;
+}
+
+.header-tag-info {
+    margin-left: 10px;
+}
+
+.header-tag-info h1 span.title {
+    font-size: 0.6em;
+    color: #fff;
+}
+
+.header-contact-section {
+    text-align: right;
+}
+
+.header-contact-section ul li {
+    text-align: center;
+}
+
+.phone-section li {
+    display: block;
+}
+
+.mail_grid1_left1 {
+    height: 300px;
+}
