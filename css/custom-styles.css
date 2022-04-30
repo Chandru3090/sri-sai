@@ -16,6 +16,10 @@
     flex-direction: row;
 }
 
+.navbar-brand span {
+    font-family: 'Poppins', sans-serif !important;
+}
+
 .navbar-brand a img {
     width: 70px;
 }
@@ -43,4 +47,208 @@
 
 .mail_grid1_left1 {
     height: 300px;
+}
+
+.courses-offered {
+    margin-top: 60px;
+}
+
+.courses-offered h5.title {
+    color: #ff5cb6;
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.courses-offered .w3_about_grid_left {
+    padding: 0px;
+}
+
+.courses-offered .w3_about_grid_left h5 {
+    color: #212121;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    line-height: 1.5em;
+}
+
+.w3_about_grid_left p {
+    color: #999;
+    line-height: 2em;
+    font-style: italic;
+    margin: 1em 0;
+}
+
+.pa_italic i {
+    left: -1em;
+    font-size: 11px;
+}
+
+.pa_italic span {
+    display: none;
+}
+
+.collapsed span {
+    display: inline-block;
+    left: -1em;
+    font-size: 11px;
+}
+
+.collapsed i {
+    display: none;
+}
+
+.panel-heading {
+    padding: 10px 35px;
+}
+
+.panel-heading h4 {
+    margin: 0px;
+}
+
+.panel-title {
+    font-size: 1em !important;
+    color: #212121;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.panel-default {
+    border-color: #FFF;
+    background: #f5f5f5;
+}
+
+.panel-default>.panel-heading {
+    border-color: #FFF;
+    color: #212121;
+    background-color: #f5b120;
+}
+
+.panel-body {
+    padding: 1.5em;
+    font-size: 14px;
+    line-height: 2em;
+    color: #999;
+}
+
+a.pa_italic label {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+a.pa_italic:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: transparent;
+}
+
+.test p,
+.course-details p {
+    color: #000;
+    font-size: 14px;
+}
+
+.course-details h2 {
+    margin: 20px 0px;
+}
+
+.course-details ul {
+    margin-top: 20px;
+}
+
+.course-details ul li {
+    margin-top: 10px;
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.course-details ul li span {
+    margin-right: 10px;
+}
+
+.navbar-collapse {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+}
+
+.nav>li {
+    letter-spacing: 1px;
+}
+
+.nav>li>a {
+    font-family: 'Hind Vadodara', sans-serif !important;
+    letter-spacing: 1px;
+}
+
+.flexslider {
+    width: 100%;
+}
+
+.wthree_banner_info_grid h3,
+.wthree_banner_info_grid p {
+    font-family: 'Abel-Regular';
+}
+
+/* Modal */
+
+.modal-content {
+    background: #353b46;
+    border-radius: 3px;
+    padding: 20px 30px;
+}
+
+.modal-content ul.num-w3ls li {
+    color: #fff;
+}
+
+.modal-content .row {
+    margin-bottom: 20px;
+}
+
+.modal-lg {
+    width: 900px !important;
+}
+
+.card .card-body .card-text {
+    color: #fff;
+    line-height: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand a {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-tag-info h1 {
+        text-align: center;
+    }
+
+    .header-contact-section {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .header-contact-section .footer-grids {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal-lg {
+        width: 100% !important;
+    }
 }

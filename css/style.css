@@ -4124,7 +4124,7 @@ section.social ul li a i {
         position: absolute;
         width: 100%;
         background: rgba(0, 0, 0, 0.81);
-        z-index: 999;
+        z-index: 998;
     }
     .link-effect-3 a {
         margin: 0;
