@@ -3,8 +3,12 @@
     margin: 0px;
     position: sticky;
     top: 0;
-    background: #000;
+    background: linear-gradient(154.7deg, #01131D 0%, #04202C 100%);
     z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
 }
 
 .navbar-brand {
@@ -21,7 +25,8 @@
 }
 
 .navbar-brand a img {
-    width: 70px;
+    width: 80px;
+    height: 80px;
 }
 
 .header-tag-info {
@@ -31,6 +36,16 @@
 .header-tag-info h1 span.title {
     font-size: 0.6em;
     color: #fff;
+}
+
+.header-tag-info h1 span {
+    line-height: 1.6;
+}
+
+.header-tag-info h1 span:nth-child(3) {
+    font-size: .3em;
+    color: #fff;
+    text-transform: lowercase;
 }
 
 .header-contact-section {
@@ -47,10 +62,6 @@
 
 .mail_grid1_left1 {
     height: 300px;
-}
-
-.courses-offered {
-    margin-top: 60px;
 }
 
 .courses-offered h5.title {
@@ -75,7 +86,7 @@
 .w3_about_grid_left p {
     color: #999;
     line-height: 2em;
-    font-style: italic;
+    /* font-style: italic; */
     margin: 1em 0;
 }
 
@@ -220,6 +231,107 @@ a.pa_italic:focus {
 .card .card-body .card-text {
     color: #fff;
     line-height: 22px;
+}
+
+.footer,
+.copyright-wthree,
+.modal-content,
+.bottom_middle {
+    background: linear-gradient(154.7deg, #01131D 0%, #04202C 100%);
+}
+
+.footer {
+    padding: 3em 1em;
+}
+
+.footer .top-header-agile-right {
+    padding: 0px;
+}
+
+.banner,
+.banner-overlay-agileinfo {
+    max-height: 650px;
+}
+
+.footer-grids h3 a {
+    color: #f5b120;
+    font-size: 18px;
+    margin: 0.4em 0px 0.5em;
+    text-transform: capitalize;
+}
+
+.welcome {
+    padding: 3em 0;
+}
+
+.footer-grids ul.social-icons li a {
+    color: #fff !important;
+    border: none !important;
+    line-height: 30px;
+}
+
+.footer-grids ul.social-icons li:nth-child(1) a,
+.footer-grids ul.social-icons li:nth-child(1) a:hover {
+    background-color: #4267B2;
+    color: #fff;
+}
+
+.footer-grids ul.social-icons li:nth-child(2) a,
+.footer-grids ul.social-icons li:nth-child(2) a:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.footer-grids ul.social-icons li:nth-child(3) a,
+.footer-grids ul.social-icons li:nth-child(3) a:hover {
+    background-color: #25D366
+}
+
+.footer-grids ul.social-icons li:nth-child(4) a,
+.footer-grids ul.social-icons li:nth-child(4) a:hover {
+    background-color: #c4302b;
+}
+
+.floating-whatsapp {
+    background-color: #25D366;
+    height: 38px;
+    width: 38px;
+    position: fixed;
+    bottom: 80px;
+    right: 2.5%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-whatsapp i {
+    color: #fff;
+    font-size: 22px;
+}
+
+.top-header-agile-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar-nav li a {
+    padding: 20px 0 0 20px !important;
+}
+
+.w3l_banner_info {
+    margin: 3.5em auto 0;
+}
+
+.owl-pagination {
+    bottom: 0;
+}
+
+#architectural-work-page,
+#architectural-work-page .banner-overlay-agileinfo {
+    min-height: 650px;
 }
 
 @media only screen and (max-width: 600px) {
