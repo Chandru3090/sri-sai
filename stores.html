@@ -27,6 +27,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
     <!-- Owl-carousel-CSS -->
     <link href="css/owl.carousel.css" rel="stylesheet">
+    <!-- Lightbox css -->
+    <link rel="stylesheet" href="css/lsb.css" />
     <!-- Index-Page-CSS -->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!-- //Custom-Stylesheet-Links -->
@@ -73,12 +75,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         }
 
         @media (max-width: 900px) {
-            .top-header-agile-right {
-                position: absolute;
-                top: 0;
-                right: 0;
-            }
-
             .flexslider .slides img {
                 width: 60%;
             }
@@ -134,26 +130,55 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <body>
     <div class="top-header-agile row">
-        <div class="col-md-6 navbar-brand">
+        <div class="col-md-5 col-sm-4 navbar-brand">
             <a href="index.html">
                 <img src="images/sri-sai-logo.png" alt="Sri sai" title="Sri sai" class="mr-2" />
                 <div class="header-tag-info">
                     <h1>
                         <span class="title">
-                            Sri Sai NATA Coaching
+                            Sri Sai Store
                         </span>
-                        <span>
+                        <!-- <span>
                             Entrance Coaching for
-                            NATA, IIT JEE Paper2 NIFT,NID,
-                            UCEED,GATE ARCHITECTURE,CEED
-                        </span>
+                            NATA, IIT JEE Paper2 NIFT, NID,
+                            UCEED, GATE ARCHITECTURE, CEED
+                        </span> -->
+                        <span>Since 2011</span>
                     </h1>
                 </div>
             </a>
         </div>
-        <div class="col-md-6 header-contact-section text-right top-header-agile-right">
+        <div class="col-md-7 col-sm-8 header-contact-section text-right top-header-agile-right">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header navbar-left">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <nav class="link-effect-3" id="link-effect-3">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="index.html" data-hover="Sri Sai NATA Coaching">Sri Sai NATA Coaching</a>
+                            </li>
+                            <li>
+                                <a href="architecture.html" data-hover="Architectural Works">Sri Sai Architectural
+                                    Works</a>
+                            </li>
+                            <li class="active">
+                                <a href="stores.html" data-hover="Stores">Sri Sai Stores</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
             <div class="footer-grids">
-                <ul>
+                <ul class="social-icons">
                     <li>
                         <a href="https://www.facebook.com/srisai.nata" target="_blank">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -175,51 +200,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </li>
                 </ul>
+                <ul class="num-w3ls">
+                    <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+                    <li>99433 51336 | 9786093855</li>
+                </ul>
             </div>
-
-            <ul class="num-w3ls">
-                <li><i class="fa fa-phone" aria-hidden="true"></i></li>
-                <li>99433 51336 | 9786093855</li>
-            </ul>
-
         </div>
     </div>
     <!-- banner -->
-    <div class="banner" id="home">
+    <div class="banner" id="store">
         <div class="banner-overlay-agileinfo">
             <div class="container">
-                <nav class="navbar navbar-default">
-                    <div class="navbar-header navbar-left">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse navbar-right" style="display: flex !important;" id="bs-example-navbar-collapse-1">
-                        <nav class="link-effect-3" id="link-effect-3">
-                            <ul class="nav navbar-nav">
-                                <!--<li ><a href="index.html" data-hover="Home" >Home</a></li>-->
-                                <li><a href="index.html" data-hover="Mail Us">Sri Sai NATA Coaching</a></li>
-                                <!-- <li><a href="coaching.html" data-hover="NATA Coaching">Courses Offered</a></li> -->
-                                <li><a href="architecture.html" data-hover="Architectural Works">Sri Sai Architectural
-                                        Works</a></li>
-                                <!--<li class="dropdown menu__item">
-								<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" data-hover="Pages" role="button" aria-haspopup="true" aria-expanded="false">Pages<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="codes.html">Short Codes</a></li>
-									<li><a href="icons.html">Icons</a></li>
-								</ul>
-							</li>-->
-                                <li class="active"><a href="stores.html" data-hover="Stores">Sri Sai Stores</a></li>
-
-                            </ul>
-                        </nav>
-                    </div>
-                </nav>
                 <div class="w3l_banner_info">
                     <section class="slider">
                         <div class="flexslider">
@@ -236,28 +227,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <p>Your child can be a genius</p>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="wthree_banner_info_grid">
-                                        <h3><span>Genius</span>Welcome to <br>Sri Sai</h3>
-                                        <p>NATA Coaching</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="wthree_banner_info_grid">
-                                        <h3><span>Genius</span>Education <br>for everyone</h3>
-                                        <p>Your child can be a genius</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="wthree_banner_info_grid">
-                                        <h3><span>Genius</span>Education <br>for everyone</h3>
-                                        <p>Your child can be a genius</p>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </section>
-
                 </div>
             </div>
         </div>
@@ -268,21 +240,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="container py-xl-5 py-lg-3">
             <div class="title-section text-center mb-md-5 mb-4">
                 <h3 class="w3ls-title mb-3"> <span><br>Stores</span></h3><br><br>
-
             </div>
-            <div class="row mt-4">
+            <div class="row">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/1.jpg">
-                            <img src="stores/1.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                        <a href="stores/1.jpg" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/1.jpg" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Mount board (white) size:20”x30” (thick)<br><br>
                             </h4>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/2.jpg">
+                        <a href="stores/2.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/2.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Butter sheets (rough quality ) for Architecture students (Per ream 480
                                 Sheets)
@@ -290,9 +261,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/3.jpg">
+                        <a href="stores/3.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/3.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Rolex Executive bond sheet (A2 size) (Per ream 250sheets)
 
@@ -301,69 +272,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/4.jpg">
+                        <a href="stores/4.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/4.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Duplex board A1 +size (600 Gsm) 31 ½” x 41 ½”<br><br>
                             </h4>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/5.jpg">
+                        <a href="stores/5.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/5.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Chart paper white color A1 size (smooth) ( Per Ream 100 Sheets)
                             </h4>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/6.jp">
+                        <a href="stores/6.jp" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/6.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Graph sheet A1 size in cm’s<br><br><br>
                             </h4>
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/7.jpg">
+                        <a href="stores/7.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/7.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Gateway sheet A1 size (90/95 Gsm)<br><br>
                             </h4>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/8.jpg">
+                        <a href="stores/8.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/8.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Gateway sheet Roll 40” x18.23mtrs (90/95gsm)
 
@@ -372,30 +319,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/9.jpg">
+                        <a href="stores/9.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/9.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Handmade sheet white A2 + size (thick)<br><br>
                             </h4>
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/10.jpg">
+                        <a href="stores/10.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/10.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Drawing paper A1 size (white ) 90Gsm
 
@@ -404,9 +339,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/11.jpg">
+                        <a href="stores/11.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/11.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Drawing paper A3 size (white ) 90Gsm
 
@@ -415,9 +350,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/12.jpg">
+                        <a href="stores/12.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/12.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Drawing paper A1 size (white ) 90Gsm
 
@@ -426,21 +361,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/13.jpg">
+                        <a href="stores/13.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/13.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Nalanda Tee square 42” with marking (105cm)
 
@@ -451,9 +374,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/14.jpg">
+                        <a href="stores/14.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/14.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Grafo Tee square 42” with marking (105cm)
 
@@ -462,9 +385,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/15.jpeg">
+                        <a href="stores/15.jpeg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/15.jpeg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Nalanda Adjustable set square 12” (30cm) with marking
 
@@ -475,21 +398,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/16.jpg">
+                        <a href="stores/16.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/16.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Bilt Matrix sheet A3 size (50 sheets )130Gsm Half white
 
@@ -498,9 +409,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/17.jpg">
+                        <a href="stores/17.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/17.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Triangular scale 12” (30cm) metric)
 
@@ -511,9 +422,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/18.jpg">
+                        <a href="stores/18.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/18.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Drawing paper A1 size (white ) 90Gsm
 
@@ -522,21 +433,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/19.jpg">
+                        <a href="stores/19.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/19.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Sudha’68 dry color cryons (set of 20)
 
@@ -547,9 +446,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/20.jpeg">
+                        <a href="stores/20.jpeg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/20.jpeg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Camel Artist water color (set of 12) 5ml (70-S-12)
 
@@ -560,9 +459,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/21.jpg">
+                        <a href="stores/21.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/21.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Color mixing pallet (Big size)<br>
 
@@ -573,21 +472,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/22.jpg">
+                        <a href="stores/22.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/22.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Faber Castell water color pencils (set of 24)
 
@@ -596,9 +483,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/23.jpeg">
+                        <a href="stores/23.jpeg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/23.jpeg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Fine Art Round Brush Synthetic ( set of 7)
 
@@ -609,9 +496,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/24.jpg">
+                        <a href="stores/24.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/24.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Fema Architect template Art No:TT 6 (1:50)
 
@@ -624,23 +511,96 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/25.jpeg">
+                        <a href="stores/28.jpg" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/28.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                            <h4 class="p-mask">Graphix drawing board clip plastic (set of 4 ) <br><br>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-demo">
+                        <a href="stores/29.jpg" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/29.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                            <h4 class="p-mask">Graphix drawing board clip Metal (set of 4)
+                                <br><br>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-demo">
+                        <a href="stores/30.jpg" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/30.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                            <h4 class="p-mask">Fema Architect template Art No:TT7 (1:100)
+                                <br><br>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-demo">
+                        <a href="stores/31.jpg" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/31.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                            <h4 class="p-mask">Grafo Clutch pencil 0.5mm
+                                <br><br>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-demo">
+                        <a href="stores/32.jpg" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/32.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                            <h4 class="p-mask">Freeman’s measuring Tape (5mtrs) Steel with level <br><br>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-demo">
+                        <a href="stores/33.jpg" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/33.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                            <h4 class="p-mask">Fine Art Flat brush Synthetic Art No:6
+                                <br><br>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-demo">
+                        <a href="stores/34.png" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/34.png" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                            <h4 class="p-mask">Fine Art Flat brush Synthetic Art No:8<br><br>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-demo">
+                        <a href="stores/35.jpeg" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/35.jpeg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                            <h4 class="p-mask">Fine Art Flat brush Synthetic Art No:10
+                                <br><br>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-demo">
+                        <a href="stores/36.jpeg" class="lsb-preview" data-lsb-group="header">
+                            <img src="stores/36.jpeg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
+                            <h4 class="p-mask">Fine Art Flat brush Synthetic Art No:12
+                                <br><br>
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-demo">
+                        <a href="stores/25.jpeg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/25.jpeg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Mornsun cutting matt A3 size (45x30cm) 18”x12” (imported)
 
@@ -651,160 +611,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/26.jpg">
+                        <a href="stores/26.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/26.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Assist Cutter (metal) medium size<br><br>
                             </h4>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-md-0 mt-4">
+                <div class="col-md-4 ">
                     <div class="gallery-demo">
-                        <a href="stores/27.jpg">
+                        <a href="stores/27.jpg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/27.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Cutter Blades (spare) board<br> <br><br>
                             </h4>
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="gallery-demo">
-                        <a href="stores/28.jpg">
-                            <img src="stores/28.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
-                            <h4 class="p-mask">Graphix drawing board clip plastic (set of 4 ) <br><br>
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-md-0 mt-4">
-                    <div class="gallery-demo">
-                        <a href="stores/29.jpg">
-                            <img src="stores/29.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
-                            <h4 class="p-mask">Graphix drawing board clip Metal (set of 4)
-                                <br><br>
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-md-0 mt-4">
-                    <div class="gallery-demo">
-                        <a href="stores/30.jpg">
-                            <img src="stores/30.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
-                            <h4 class="p-mask">Fema Architect template Art No:TT7 (1:100)
-                                <br><br>
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-4">
-                    <div class="gallery-demo">
-                        <a href="stores/31.jpg">
-                            <img src="stores/31.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
-                            <h4 class="p-mask">Grafo Clutch pencil 0.5mm
-                                <br><br>
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-md-0 mt-4">
-                    <div class="gallery-demo">
-                        <a href="stores/32.jpg">
-                            <img src="stores/32.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
-                            <h4 class="p-mask">Freeman’s measuring Tape (5mtrs) Steel with level <br><br>
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-md-0 mt-4">
-                    <div class="gallery-demo">
-                        <a href="stores/33.jpg">
-                            <img src="stores/33.jpg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
-                            <h4 class="p-mask">Fine Art Flat brush Synthetic Art No:6
-                                <br><br>
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section><br><br>
-
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4">
-
-
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-4">
-                    <div class="gallery-demo">
-                        <a href="stores/34.png">
-                            <img src="stores/34.png" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
-                            <h4 class="p-mask">Fine Art Flat brush Synthetic Art No:8<br><br>
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-md-0 mt-4">
-                    <div class="gallery-demo">
-                        <a href="stores/35.jpeg">
-                            <img src="stores/35.jpeg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
-                            <h4 class="p-mask">Fine Art Flat brush Synthetic Art No:10
-                                <br><br>
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-md-0 mt-4">
-                    <div class="gallery-demo">
-                        <a href="stores/36.jpeg">
-                            <img src="stores/36.jpeg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
-                            <h4 class="p-mask">Fine Art Flat brush Synthetic Art No:12
-                                <br><br>
-                            </h4>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        </div>
-    </section>
-    <section class="portfolio py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <div class="title-section text-center mb-md-5 mb-4"></div>
-            <div class="row mt-4">
-                <div class="col-md-4 mt-md-0 mt-4">
-                    <div class="gallery-demo">
-                        <a href="stores/37.jpeg">
+                        <a href="stores/37.jpeg" class="lsb-preview" data-lsb-group="header">
                             <img src="stores/37.jpeg" style="height: 100%;width: 100%;" alt=" " class="img-fluid" />
                             <h4 class="p-mask">Mornsun flexible curve 40cm with marking
 
@@ -814,58 +641,101 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </div>
             </div>
+        </div>
     </section>
+
+    <div class="courses-offered about terms-and-use" id="terms-and-use">
+        <div class="container">
+            <div class="jst-abut-wls">
+                <h5 class="title">Terms and Conditions</h5>
+            </div>
+            <div class="col-md-12 w3_about_grid_left">
+                <h5>Notice Specific to Documents Available on this Website</h5>
+                <p>Permission to use documents (such as list and images) from this website is granted, provided that.
+                    <br />
+                    (1) use of such documents from this site is for informational, media and non-commercial or personal
+                    use, <br />
+                    (2) these documents are not used to describe, <br />
+                    (3) no modifications of any documents are made without the prior written consent of Sri Sai
+                    Architecture Works. Use for any other purpose is expressly prohibited by law, and may result in
+                    severe civil and criminal penalties. Violators will be prosecuted to the maximum extent possible.
+                </p>
+            </div>
+            <div class="col-md-12 w3_about_grid_left">
+                <h5>Links to Third Party Sites</h5>
+                <p>Various links on this website will let you leave Sri Sai Architecture Works site. These linked sites
+                    are not under the control of Sri Sai Architecture Works and Sri Sai Architecture Works is not
+                    responsible for the contents of any linked site or any link contained in a linked site, or any
+                    changes or updates to such sites. Sri Sai Architecture Works is providing these links to you only as
+                    a convenience, and the inclusion of any link does not imply endorsement by Sri Sai Architecture
+                    Works of the site.</p>
+            </div>
+        </div>
+    </div>
     <!--footer-->
     <div class="footer w3layouts">
-        <div class="container">
-            <div class="footer-row w3layouts-agile">
-                <div class="col-md-4 footer-grids w3l-agileits">
-                    <h3><a href="./index.html">Sri Sai NATA Coaching</a></h3>
-                    <!--<p class="footer-one-w3ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar tellus sed mauvehicula tempor. </p>
+        <div class="footer-row w3layouts-agile">
+            <div class="col-md-3 footer-grids w3l-agileits">
+                <h3><a href="./architecture.html">Sri Sai Architectural Works</a></h3>
+                <!--<p class="footer-one-w3ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar tellus sed mauvehicula tempor. </p>
 				-->
-                    <div class="top-header-agile-right">
-                        <ul>
-
-                            <li><a href="https://www.facebook.com/srisai.nata"><i class="fa fa-facebook"
-                                        aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.instagram.com/sri_sai_nata_coaching_b.arch/"><i
-                                        class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a href="https://api.whatsapp.com/qr/XEEXSQQJIEDDH1"><i class="fa fa-whatsapp"
-                                        aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCJG7MIIMGHZ1HAOuvojqT3g"><i
-                                        class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-
-                <div class="col-md-2 footer-grids w3l-agileits">
-                    <h3>Footer Menu</h3>
-                    <ul class="b-nav">
-                        <li><a href="index.html">Sri Sai NATA Coaching</a></li>
-                        <!-- <li><a href="coaching.html">NATA Coaching</a></li> -->
-                        <li><a href="architecture.html">Architecture Works</a></li>
-                        <li><a href="stores.html">Stores</a></li>
+                <div class="top-header-agile-right">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.facebook.com/srisai.nata" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/sri_sai_nata_coaching_b.arch/" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=9943351336" target="_blank">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCJG7MIIMGHZ1HAOuvojqT3g" target="_blank">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-
-                <div class="col-md-3 footer-grids w3l-agileits">
-                    <h3>Contact Info</h3>
-                    <p>Running by Registered Architects-COA,Delhi No. 9 ,Vivekanandhar Street, Teachers Colony Near
-                        Sangeetha Theatre,<br>Surampatti, Erode - 638009</p>
-
-
-
-                </div>
-                <div class="col-md-3 footer-grids w3l-agileits">
-                    <h3>Phone and Email</h3>
-                    <p>99433 51336 | 97860 93855</p>
-                    <p><a href="srisainatacoaching@gmail.com">srisainatacoaching@gmail.com</a></p>
-                    <p><a href="info.srisaiarchitectureworks@gmail.com">info.srisaiarchitectureworks@gmail.com</a></p>
-                    <p><a href="srisaaistore@gmail.com">srisaaistore@gmail.com</a></p>
-                </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
+            <div class="col-md-3 footer-grids w3l-agileits">
+                <h3>Footer Menu</h3>
+                <ul class="b-nav">
+                    <li><a href="index.html">Sri Sai NATA Coaching</a></li>
+                    <!-- <li><a href="coaching.html">NATA Coaching</a></li> -->
+                    <li><a href="architecture.html">Architecture Works</a></li>
+                    <li><a href="stores.html">Stores</a></li>
+                    <li><a href="#terms-and-use">Terms of Use & Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grids w3l-agileits">
+                <h3>Contact Info</h3>
+                <p>Running by Registered Architects - COA, Delhi.<br />
+                    Erode:<br />
+                    No. 9, Vivekanandhar Street, Teachers Colony Near
+                    Sangeetha Theatre,<br>Surampatti, Erode - 638009.
+                    <br />
+                    Bangalore:<br />
+                    Anantha Nagar Rd, Shree Ananth Nagar Layout, <br />Electronic City, Vaddara Palya,<br /> Bangalore
+                    Karnataka - 560100.
+                </p>
+            </div>
+            <div class="col-md-3 footer-grids w3l-agileits">
+                <h3>Phone and Email</h3>
+                <p>99433 51336 | 97860 93855</p>
+                <p><a href="mailto:srisainatacoaching@gmail.com">srisainatacoaching@gmail.com</a></p>
+                <p><a href="mailto:info.srisaiarchitectureworks@gmail.com">info.srisaiarchitectureworks@gmail.com</a>
+                </p>
+                <p><a href="mailto:srisaaistore@gmail.com">srisaaistore@gmail.com</a></p>
+            </div>
+            <div class="clearfix"> </div>
         </div>
     </div>
     <!--//footer-->
@@ -875,8 +745,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     <!-- //copy-right -->
 
-    <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;">
-        </span></a>
+    <div class="floating-section">
+        <a href="#home" class="scroll" id="toTop" style="display: block;">
+            <span id="toTopHover" style="opacity: 1;"></span>
+        </a>
+
+        <a href="https://api.whatsapp.com/send?phone=9943351336" class="floating-whatsapp" target="_blank">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+    </div>
     <!-- //smooth scrolling -->
 
 
@@ -981,6 +858,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!--js for bootstrap working-->
     <script src="js/bootstrap.js"></script>
     <!-- //for bootstrap working -->
+    <script src="js/lsb.min.js"></script>
+    <script>
+        $(window).load(function () {
+            $.fn.lightspeedBox();
+        });
+    </script>
 </body>
 
 </html>

@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
     <!-- Owl-carousel-CSS -->
     <link href="css/owl.carousel.css" rel="stylesheet">
+    <!-- Lightbox css -->
+    <link rel="stylesheet" href="css/lsb.css" />
     <!-- Index-Page-CSS -->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!-- //Custom-Stylesheet-Links -->
@@ -57,12 +59,6 @@
         }
 
         @media (max-width: 900px) {
-            .top-header-agile-right {
-                position: absolute;
-                top: 0;
-                right: 0;
-            }
-
             .flexslider .slides img {
                 width: 60%;
             }
@@ -146,8 +142,7 @@
                     </button>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right" style="display: flex !important;"
-                    id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <nav class="link-effect-3" id="link-effect-3">
                         <ul class="nav navbar-nav">
                             <li>
@@ -214,28 +209,9 @@
                                         <p>Your child can be a genius</p>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="wthree_banner_info_grid">
-                                        <h3><span>Genius</span>Welcome to <br>Sri Sai</h3>
-                                        <p>NATA Coaching</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="wthree_banner_info_grid">
-                                        <h3><span>Genius</span>Education <br>for everyone</h3>
-                                        <p>Your child can be a genius</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="wthree_banner_info_grid">
-                                        <h3><span>Genius</span>Education <br>for everyone</h3>
-                                        <p>Your child can be a genius</p>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </section>
-
                 </div>
             </div>
         </div>
@@ -259,8 +235,6 @@
                         since 2011. Residential projects include
                         remodels, additions and new construction located in Erode, Coimbatore, Chennai. Also, campus
                         projects include Sengunthar School in Erode, Annai Educational Trust in Nangavalli.</p>
-
-
                 </div>
                 <div class="col-md-6 about_right">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -312,10 +286,10 @@
     <!-- services bottom -->
     <div class="bottom">
         <div class="bottom_grids">
-            <div class="col-md-3 bottom_left">
+            <div class="col-md-3 col-xs-12 bottom_left">
                 <img src="images/left1.jpg" alt="" />
             </div>
-            <div class="col-md-6 bottom_middle">
+            <div class="col-md-6 col-xs-12 bottom_middle">
                 <div id="typed-strings" class="agileits_w3layouts_strings">
                     <h4>About our Services</h4>
                 </div>
@@ -359,32 +333,34 @@
     <!-- Services -->
     <div class="services" id="services">
         <div class="container">
-
             <div class="servicegrids">
                 <div class="col-md-6 ser_grid1 icon1">
                     <h3>Architectural Design Services</h3>
                     <ul>
-                        <li>Feasibility Studies</li>
-                        <li>Master Site Planning</li>
-                        <li>Design</li>
-                        <li>Construction Drawings</li>
-                        <li>Detailing</li>
-                        <li>Consultant Coordination</li>
-                        <li>Construction</li>
-                        <li>Administration</li>
+                        <li>
+                            <span class="fa fa-check"></span>
+                            Feasibility Studies
+                        </li>
+                        <li><span class="fa fa-check"></span>Master Site Planning</li>
+                        <li><span class="fa fa-check"></span>Design</li>
+                        <li><span class="fa fa-check"></span>Construction Drawings</li>
+                        <li><span class="fa fa-check"></span>Detailing</li>
+                        <li><span class="fa fa-check"></span>Consultant Coordination</li>
+                        <li><span class="fa fa-check"></span>Construction</li>
+                        <li><span class="fa fa-check"></span>Administration</li>
                     </ul>
                 </div>
                 <div class="col-md-6 ser_grid1 icon2">
                     <h3>Interior Design Services</h3>
                     <ul>
-                        <li>Space Planning and Programming</li>
-                        <li>Material and Product Selections</li>
-                        <li>Flooring Designs</li>
-                        <li>Tile Designs</li>
-                        <li>Built-in Cabinetry Designs</li>
-                        <li>Kitchen and Bath Designs</li>
-                        <li>Lighting Specialties</li>
-                        <li>Ceiling Design / Features</li>
+                        <li><span class="fa fa-check"></span>Space Planning and Programming</li>
+                        <li><span class="fa fa-check"></span>Material and Product Selections</li>
+                        <li><span class="fa fa-check"></span>Flooring Designs</li>
+                        <li><span class="fa fa-check"></span>Tile Designs</li>
+                        <li><span class="fa fa-check"></span>Built-in Cabinetry Designs</li>
+                        <li><span class="fa fa-check"></span>Kitchen and Bath Designs</li>
+                        <li><span class="fa fa-check"></span>Lighting Specialties</li>
+                        <li><span class="fa fa-check"></span>Ceiling Design / Features</li>
                     </ul>
                 </div>
                 <div class="clearfix"></div>
@@ -397,49 +373,50 @@
         <div class="container">
             <h3 class="heading">Our <span>Process</span></h3>
             <div class="servicegrids">
-                <div class="col-md-3 ser_grid1 icon1">
-                    <span class="glyphicon glyphicon-lamp"></span>
-                    <h3>Programming</h3>
-                    <p style="text-align: justify;">The initial phase in which the architect and home owner discuss the
-                        goals, needs, and function of the project; design expectations and available budget; and
-                        pertinent building code and zoning regulations. In this phase, the homeowner
-                        is encouraged to have a candid discussion of their actual budget for the entire project.
-                        Following the initial discussions, an architect will produce an outline of the scope of the
-                        proposed project.</p>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12 ser_grid1 icon1">
+                        <h3><span class="glyphicon glyphicon-lamp"></span> Programming</h3>
+                        <p style="text-align: justify;">The initial phase in which the architect and home owner discuss
+                            the
+                            goals, needs, and function of the project; design expectations and available budget; and
+                            pertinent building code and zoning regulations. In this phase, the homeowner
+                            is encouraged to have a candid discussion of their actual budget for the entire project.
+                            Following the initial discussions, an architect will produce an outline of the scope of the
+                            proposed project.</p>
 
-                </div>
-                <div class="col-md-3 ser_grid1 icon2">
-                    <span class="glyphicon glyphicon-blackboard"></span>
-                    <h3>Schematic Design</h3>
-                    <p style="text-align: justify;">
-                        Your architect will provide concept sketches of the design and explain how they meet the
-                        requirements discussed in the programming stage. The overall scope of the project, proposed
-                        building materials, and a preliminary budget related to the schematic
-                        design are also discussed. Refinements are made until you approve the design.</p>
+                    </div>
+                    <div class="col-md-6 col-xs-12 ser_grid1 icon2">
+                        <h3><span class="glyphicon glyphicon-blackboard"></span> Schematic Design</h3>
+                        <p style="text-align: justify;">
+                            Your architect will provide concept sketches of the design and explain how they meet the
+                            requirements discussed in the programming stage. The overall scope of the project, proposed
+                            building materials, and a preliminary budget related to the schematic
+                            design are also discussed. Refinements are made until you approve the design.</p>
 
+                    </div>
                 </div>
-                <div class="col-md-3 ser_grid1 icon3">
-                    <span class="glyphicon glyphicon-bell"></span>
-                    <h3>Design development</h3>
-                    <p style="text-align: justify;">
-                        Your architect will prepare detailed drawings and finalize the design plans, showing actual
-                        sizes and shapes for rooms. Construction specifications will be outlined, listing the major
-                        materials to be used. When you approve the design drawings, your architect
-                        will assist you with the hiring of relevant consultants for your project, such as structural
-                        engineering, electrical,plumbing, carpentry, false ceiling, flooring,land survey, and civil
-                        engineering.</p>
 
+                <div class="row">
+                    <div class="col-md-6 col-xs-12 ser_grid1 icon3">
+                        <h3><span class="glyphicon glyphicon-bell"></span> Design development</h3>
+                        <p style="text-align: justify;">
+                            Your architect will prepare detailed drawings and finalize the design plans, showing actual
+                            sizes and shapes for rooms. Construction specifications will be outlined, listing the major
+                            materials to be used. When you approve the design drawings, your architect
+                            will assist you with the hiring of relevant consultants for your project, such as structural
+                            engineering, electrical,plumbing, carpentry, false ceiling, flooring,land survey, and civil
+                            engineering.</p>
+                    </div>
+                    <div class="col-md-6 col-xs-12 ser_grid1 icon4">
+                        <h3><span class="glyphicon glyphicon-picture"></span> Construction documents</h3>
+                        <p style="text-align: justify;">
+                            One of the most important elements of your architect's services is construction documents.
+                            Your
+                            architect develops detailed drawings and material specifications. The contractor will use
+                            both
+                            to estimate construction costs and to build the project.</p>
+                    </div>
                 </div>
-                <div class="col-md-3 ser_grid1 icon4">
-                    <span class="glyphicon glyphicon-picture"></span>
-                    <h3>Construction documents</h3>
-                    <p style="text-align: justify;">
-                        One of the most important elements of your architect's services is construction documents. Your
-                        architect develops detailed drawings and material specifications. The contractor will use both
-                        to estimate construction costs and to build the project.</p>
-
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -448,8 +425,8 @@
     <div class="welcome">
         <div class="container">
             <h3 class="heading">Our <span>Portfolio</span></h3>
-            <P> &nbsp;&nbsp;&nbsp;Here is a sampling of the work that Architect Vainavi has designed, produced and
-                collaborated on over the years.</P>
+            <p>Here is a sampling of the work that Architect Vainavi has designed, produced and
+                collaborated on over the years.</p>
             <div class="w3layouts_gallery_grids">
                 <div class="col-md-4 w3layouts_gallery_grid">
                     <a href="images/portfolio (1).jpg" class="lsb-preview" data-lsb-group="header">
@@ -518,12 +495,10 @@
     </div>
     <!-- //gallery -->
 
-
-
     <div class="courses-offered about terms-and-use" id="terms-and-use">
         <div class="container">
             <div class="jst-abut-wls">
-                <h5 class="title">Terms and Conditions</h5>
+                <h3 class="heading">Terms <span> and Conditions</span></h3>
             </div>
             <div class="col-md-12 w3_about_grid_left">
                 <h5>Notice Specific to Documents Available on this Website</h5>
@@ -619,13 +594,15 @@
         <p>&copy;2021 Sri Sai. All rights reserved.</a></p>
     </div>
     <!-- //copy-right -->
+    <div class="floating-section">
+        <a href="#home" class="scroll" id="toTop" style="display: block;">
+            <span id="toTopHover" style="opacity: 1;"></span>
+        </a>
 
-    <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;">
-        </span></a>
-    <!-- //smooth scrolling -->
-    <a href="https://api.whatsapp.com/send?phone=9943351336" class="floating-whatsapp" target="_blank">
-        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-    </a>
+        <a href="https://api.whatsapp.com/send?phone=9943351336" class="floating-whatsapp" target="_blank">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+    </div>
 
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <!-- flexSlider -->
@@ -643,6 +620,7 @@
     <!-- //flexSlider -->
     <!-- requried-jsfiles-for owl -->
     <script src="js/owl.carousel.js"></script>
+
     <script>
         $(document).ready(function () {
             $("#owl-demo2").owlCarousel({
@@ -741,6 +719,13 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <script src="js/lsb.min.js"></script>
+    <script>
+        $(window).load(function () {
+            $.fn.lightspeedBox();
+        });
+    </script>
 </body>
 
 </html>

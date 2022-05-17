@@ -4,7 +4,7 @@
     position: sticky;
     top: 0;
     background: linear-gradient(154.7deg, #01131D 0%, #04202C 100%);
-    z-index: 999;
+    z-index: 9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,14 +182,6 @@ a.pa_italic:focus {
     margin-right: 10px;
 }
 
-.navbar-collapse {
-    display: flex !important;
-    align-items: center;
-    width: 100%;
-    margin: 0px;
-    justify-content: center;
-}
-
 .nav>li {
     letter-spacing: 1px;
 }
@@ -295,13 +287,17 @@ a.pa_italic:focus {
     background-color: #25D366;
     height: 38px;
     width: 38px;
-    position: fixed;
-    bottom: 80px;
-    right: 2.5%;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.floating-section {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    z-index: 999;
 }
 
 .floating-whatsapp i {
@@ -330,11 +326,117 @@ a.pa_italic:focus {
 }
 
 #architectural-work-page,
-#architectural-work-page .banner-overlay-agileinfo {
+#architectural-work-page .banner-overlay-agileinfo,
+#store .banner-overlay-agileinfo {
     min-height: 650px;
 }
 
+.ser_grid1 ul {
+    list-style: none;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.ser_grid1 ul li span {
+    color: #f0ad4e;
+    margin-right: 10px;
+}
+
+.ser_grid1 ul li,
+.ser_grid1 ul li span {
+    font-size: 17px !important;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.about h3.heading,
+.services h3.heading,
+#typed-strings h4,
+.servicegrids h3,
+.welcome h3.heading,
+.footer .footer-grids h3,
+.courses-offered .w3_about_grid_left h5,
+.courses-offered .jst-abut-wls h5,
+h3.w3ls-title {
+    font-family: 'Abel-Regular';
+}
+
+.servicegrids h3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.servicegrids h3 span.glyphicon {
+    margin-right: 5px;
+}
+
+.welcome h3.heading span:after {
+    left: 17%
+}
+
+.terms-and-use h3.heading span:after {
+    left: 26%;
+}
+
+.about h3.heading,
+.services h3.heading,
+.welcome h3.heading,
+.terms-and-use h3.heading {
+    color: #ff5cb6;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+section.portfolio div.row div {
+    margin: 20px 0px;
+}
+
+.img-circle {
+    width: 200px !important;
+    height: 200px;
+    border-radius: 50%;
+}
+
+img.img-circle {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all 0.5s;
+}
+
+img.img-circle:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.mis-stage, .mis-slider, .mis-slide, .mis-container, .mis-container * {
+    z-index: 8;
+}
+
 @media only screen and (max-width: 600px) {
+    .top-header-agile {
+        position: relative;
+    }
+    .navbar-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .navbar-brand a {
         flex-direction: column;
         align-items: center;
@@ -352,15 +454,60 @@ a.pa_italic:focus {
         align-items: center;
         margin: 0px;
         width: 100%;
+        text-align: center;
+    }
+
+    .navbar-default {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .header-contact-section .footer-grids {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header-contact-section .footer-grids ul {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .modal-lg {
         width: 100% !important;
     }
+
+    .top-header-agile {
+        flex-direction: column;
+    }
+
+    .top-header-agile-right ul li a {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar-nav>li>a {
+        padding: .5em 0 !important;
+        width: 100% !important;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+    }
+
+    .footer-row .footer-grids {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .floating-whatsapp {
+        left: 2% !important;
+    }
+
+    #toTop {
+        left: 2% !important;
+    }
+
 }

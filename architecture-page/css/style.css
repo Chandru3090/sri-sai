@@ -706,7 +706,7 @@ h3.heading span:after{
     position: absolute;
     content: '';
     bottom: 46%;
-    left: 32%;
+    left: 20%;
     width: 9%;
     height: 3px;
     background: #555;
@@ -761,11 +761,10 @@ h3.heading span:after{
 
 /*-- services section --*/
 .services h3.heading span:after{
-    left: 26.5%;
+    left: 16%;
 }
 .ser_grid1 span.glyphicon {
     font-size: 40px;
-    margin-bottom: 0.5em;
 }
 
 .ser_grid1 a {
@@ -1701,11 +1700,11 @@ ul.con_inner_text.midimg li {
 #toTop {
 	display: none;
 	text-decoration: none;
-	position: fixed;
+	/* position: fixed;
 	bottom: 20px;
-	right: 2%;
-	overflow: hidden;
-	z-index: 999; 
+	right: 2%; 
+	overflow: hidden;*/ 
+	
 	width: 40px;
 	height: 40px;
 	border: none;
@@ -2020,14 +2019,6 @@ ul.con_inner_text.midimg li {
 	}
 	.agile_banner_text_info a {
 		font-size: 14px;
-	}
-	.ser_grid1 {
-		width: 50%;
-		float: left;
-		margin-bottom: 4em;
-	}
-	.ser_grid1:nth-child(3),.ser_grid1:nth-child(4) {
-		margin-bottom: 0em;
 	}
 	.bottom_middle {
 		padding: 3em 6em;
@@ -2483,11 +2474,6 @@ ul.con_inner_text.midimg li {
 	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a {
 		width: 30%;
 		margin: 0 auto;
-	}
-	.ser_grid1,.ser_grid1:nth-child(3) {
-		width: 100%;
-		float: none;
-		margin-bottom: 3em;
 	}
 	.bottom_middle {
 		padding: 2em 1em;

@@ -935,11 +935,11 @@ figure.agileits_effect_moses:hover img {
 #toTop {
 	display: none;
 	text-decoration: none;
-	position: fixed;
+	/* position: fixed;
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;  */
 	width: 32px;
 	height: 32px;
 	border: none;

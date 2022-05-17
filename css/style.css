@@ -3169,11 +3169,11 @@ section.social ul li a i {
 #toTop {
     display: none;
     text-decoration: none;
-    position: fixed;
+   /*  position: fixed;
     bottom: 24px;
     right: 1%;
     overflow: hidden;
-    z-index: 999;
+    z-index: 999; */
     width: 64px;
     height: 64px;
     border: none;

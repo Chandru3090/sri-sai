@@ -661,11 +661,11 @@ footer{background:#000;}
 #toTop {
 display: none;
 text-decoration: none;
-position: fixed;
+/* position: fixed;
 bottom: 20px;
 right: 2%;
 overflow: hidden;
-z-index: 999; 
+z-index: 999;  */
 width: 46px;
 height:46px;
 border: none;
