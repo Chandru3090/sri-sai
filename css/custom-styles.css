@@ -414,6 +414,11 @@ img.img-circle:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 330ms ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: rotateY(180deg);
 }
 
 .card-body {
@@ -423,7 +428,12 @@ img.img-circle:hover {
     font-weight: 600;
     line-height: 28px;
 }
-.mis-stage, .mis-slider, .mis-slide, .mis-container, .mis-container * {
+
+.mis-stage,
+.mis-slider,
+.mis-slide,
+.mis-container,
+.mis-container * {
     z-index: 8;
 }
 
@@ -431,6 +441,7 @@ img.img-circle:hover {
     .top-header-agile {
         position: relative;
     }
+
     .navbar-left {
         display: flex;
         align-items: center;
