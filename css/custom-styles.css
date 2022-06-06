@@ -299,7 +299,7 @@ a.pa_italic:focus {
 
 .floating-section {
     position: fixed;
-    bottom: 80px;
+    bottom: 20px;
     right: 30px;
     z-index: 999;
 }
