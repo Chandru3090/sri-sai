@@ -16,41 +16,17 @@
             window.scrollTo(0, 1);
         }
     </script>
-    <!-- //Meta-Tags -->
-    <!-- Custom-Stylesheet-Links -->
-    <!-- Bootstrap-CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- Font-awesome-CSS -->
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <!-- Flex-slider-CSS -->
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
-    <!-- Owl-carousel-CSS -->
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <!-- Lightbox css -->
-    <link rel="stylesheet" href="css/lsb.css" />
-    <!-- Index-Page-CSS -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- //Custom-Stylesheet-Links -->
-    <!--web-fonts-->
-    <!-- Headings-font -->
-    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700" rel="stylesheet">
-    <!-- Body-font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <!--//web-fonts-->
-    <!--//fonts-->
-    <!-- js -->
-    <!-- our-best-students css and js
-<link href="our-best-students/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />-->
-    <link href="our-best-students/css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- js 
-<script type="text/javascript" src="our-best-students/js/jquery-2.1.4.min.js"></script>-->
-    <link href="our-best-students/css/mislider.css" rel="stylesheet" type="text/css" />
-    <link href="our-best-students/css/mislider-custom.css" rel="stylesheet" type="text/css" />
-    <!-- //js -->
-    <!-- home welcome content -->
-    <link href="home-page/css/style.css" type="text/css" rel="stylesheet" media="all">
-    <!-- css for about content-->
-    <link href="architecture-page/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="./css/library-styles/bootstrap.min.css">
+    <link href="./css/library-styles/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/library-styles/flexslider.css" type="text/css" media="screen"/>
+    <link href="./css/library-styles/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/library-styles/lsb.css" />
+    <link href="./css/own-styles/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./css/own-styles/our-best-students/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./css/library-styles/mislider.css" rel="stylesheet" type="text/css" />
+    <link href="./css/library-styles/mislider-custom.css" rel="stylesheet" type="text/css" />
+    <link href="./css/own-styles/architecture-page/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./css/own-styles/home-page/style.css" rel='stylesheet' type='text/css' media="all">
     <style>
         @media only screen and (max-width: 700px) {
             .wthree_banner_info_grid img {
@@ -108,13 +84,13 @@
             }
         }
     </style>
-    <link rel="stylesheet" href="./css/custom-styles.css" />
+    <link rel="stylesheet" href="./css/own-styles/custom-styles.css" />
     <link rel="icon" type="image/x-icon" href="./images/sri-sai-fav-32.png">
 </head>
 
 <body>
     <div class="top-header-agile row">
-        <div class="col-md-5 navbar-brand">
+        <div class="col-md-4 navbar-brand">
             <a href="index.html">
                 <img src="images/sri-sai-logo.png" alt="Sri sai" title="Sri sai" class="mr-2" />
                 <div class="header-tag-info">
@@ -130,7 +106,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-7 header-contact-section text-right top-header-agile-right">
+        <div class="col-md-8 header-contact-section text-right top-header-agile-right">
             <nav class="navbar navbar-default">
                 <div class="navbar-header navbar-left">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -620,62 +596,6 @@
             });
         });
     </script>
-    <!-- //flexSlider -->
-    <!-- requried-jsfiles-for owl -->
-    <script src="js/owl.carousel.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $("#owl-demo2").owlCarousel({
-                items: 1,
-                lazyLoad: false,
-                autoPlay: true,
-                navigation: false,
-                navigationText: false,
-                pagination: true,
-            });
-        });
-    </script>
-    <!-- //requried-jsfiles-for owl -->
-    <!-- Countdown-Timer-JavaScript -->
-    <script src="js/simplyCountdown.js"></script>
-    <script>
-        var d = new Date(new Date().getTime() + 948 * 120 * 120 * 2000);
-
-        // default example
-        simplyCountdown('.simply-countdown-one', {
-            year: d.getFullYear(),
-            month: d.getMonth() + 1,
-            day: d.getDate()
-        });
-
-        // inline example
-        simplyCountdown('.simply-countdown-inline', {
-            year: d.getFullYear(),
-            month: d.getMonth() + 1,
-            day: d.getDate(),
-            inline: true
-        });
-
-        //jQuery example
-        $('#simply-countdown-losange').simplyCountdown({
-            year: d.getFullYear(),
-            month: d.getMonth() + 1,
-            day: d.getDate(),
-            enableUtc: false
-        });
-    </script>
-    <!-- //Countdown-Timer-JavaScript -->
-
-
-    <!--search-bar-->
-    <script src="js/main.js"></script>
-    <!--//search-bar-->
-
-
-    <!-- start-smoth-scrolling -->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -686,29 +606,7 @@
             });
         });
     </script>
-    <!-- start-smoth-scrolling -->
-    <!-- here stars scrolling icon -->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            /*
-                var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear' 
-                };
-            */
-
-            $().UItoTop({
-                easingType: 'easeOutQuart'
-            });
-
-        });
-    </script>
-    <!-- //here ends scrolling icon -->
-    <!--js for bootstrap working-->
-    <script src="js/bootstrap.js"></script>
-    <!-- //for bootstrap working -->
+    <script src="js/bootstrap.min.js"></script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
