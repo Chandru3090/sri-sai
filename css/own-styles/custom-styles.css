@@ -204,6 +204,15 @@ a.pa_italic:focus {
     font-family: 'Abel-Regular';
 }
 
+.wthree_banner_info_grid p:nth-child(3) {
+    color: #fff;
+}
+
+.wthree_banner_info_grid h2 {
+    color: #fff;
+    margin-top: 20px;
+}
+
 /* Modal */
 
 .modal-content {
@@ -287,6 +296,11 @@ a.pa_italic:focus {
     background-color: #c4302b;
 }
 
+.footer-grids ul.social-icons li:nth-child(5) a,
+.footer-grids ul.social-icons li:nth-child(5) a:hover {
+    background: #E1D41F;
+}
+
 .floating-whatsapp {
     background-color: #25D366;
     height: 38px;
@@ -295,6 +309,7 @@ a.pa_italic:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: blink 1s linear infinite;
 }
 
 .floating-section {
@@ -314,7 +329,7 @@ a.pa_italic:focus {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 12px; 
+    padding: 15px 12px;
 }
 
 .navbar-nav li a {
@@ -447,6 +462,30 @@ img.img-circle:hover {
 
 .mis-slider li figcaption {
     color: #fff;
+}
+
+.online-application-form a {
+    animation: blink 1s linear infinite;
+    color: #000;
+    font-size: 14px;
+    padding: 2px 10px;
+    border: 1px solid #fff;
+    background-color: #E1D41F;
+    border-radius: 5px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 600px) {
