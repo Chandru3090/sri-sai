@@ -216,9 +216,10 @@ a.pa_italic:focus {
 /* Modal */
 
 .modal-content {
-    background: #353b46;
+    background: linear-gradient(154.7deg, #01131D 0%, #FF5722 100%);
     border-radius: 3px;
     padding: 20px 30px;
+    border: 0px;
 }
 
 .modal-content ul.num-w3ls li {
@@ -240,7 +241,7 @@ a.pa_italic:focus {
 
 .footer,
 .copyright-wthree,
-.modal-content,
+/* .modal-content, */
 .bottom_middle {
     background: linear-gradient(154.7deg, #01131D 0%, #04202C 100%);
 }
@@ -416,9 +417,10 @@ section.portfolio div.row div {
     width: 200px !important;
     height: 200px;
     border-radius: 50%;
+
 }
 
-img.img-circle {
+/* img.img-circle {
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
     transition: all 0.5s;
@@ -427,18 +429,18 @@ img.img-circle {
 img.img-circle:hover {
     -webkit-filter: grayscale(0);
     filter: none;
-}
+} */
 
 .card {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 330ms ease-in-out;
+    /* transition: transform 330ms ease-in-out; */
 }
 
-.card:hover .card-img-top {
+/* .card:hover .card-img-top {
     transform: rotateY(180deg);
-}
+} */
 
 .card-body {
     text-align: center;
@@ -570,6 +572,20 @@ img.img-circle:hover {
 
     #toTop {
         left: 2% !important;
+    }
+
+    .ss-modal-close {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+    }
+
+    .modal {
+        margin: 0px 20px;
+    }
+
+    .card {
+        margin-bottom: 10px;
     }
 
 }
